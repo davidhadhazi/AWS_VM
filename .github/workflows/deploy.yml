@@ -27,4 +27,4 @@ jobs:
         run: pip install boto3
 
       - name: Deploy EC2 instance
-        run: python3 ../../deploy.py AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY
+        run: python3 deploy.py AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY
